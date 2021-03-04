@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arithmetic/arithmetic.iml" filepath="$PROJECT_DIR$/arithmetic/arithmetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/axios-demo/axios-demo.iml" filepath="$PROJECT_DIR$/axios-demo/axios-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" filepath="$PROJECT_DIR$/concurrency-demo/concurrency-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-rabbitmq/my-rabbitmq.iml" filepath="$PROJECT_DIR$/my-rabbitmq/my-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-rpc-client/my-rpc-client.iml" filepath="$PROJECT_DIR$/my-rpc-client/my-rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-rpc-server/my-rpc-server.iml" filepath="$PROJECT_DIR$/my-rpc-server/my-rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/study.iml" filepath="$PROJECT_DIR$/.idea/study.iml" />
+    </modules>
+  </component>
+</project>

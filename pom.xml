@@ -16,6 +16,7 @@
         <module>my-rpc-client</module>
         <module>my-rabbitmq</module>
         <module>axios-demo</module>
+        <module>concurrency-demo</module>
     </modules>
 
     <properties>
