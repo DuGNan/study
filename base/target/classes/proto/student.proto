@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-option java_package = "proto";
-option java_outer_classname = "Student";
-
-message student {
-  int64 no = 1;
-  string name = 2;
-}
