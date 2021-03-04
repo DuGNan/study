@@ -18,6 +18,7 @@
         <module>axios-demo</module>
         <module>concurrency-demo</module>
         <module>shiro-demo</module>
+        <module>spring-base-demo</module>
     </modules>
 
     <properties>
