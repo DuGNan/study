@@ -1,4 +1,6 @@
 import java.util.concurrent.atomic.AtomicIntegerArray;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Author 杜广楠
@@ -16,5 +18,8 @@ public class AtomicArrayDemo {
         ai.getAndSet(0,3);
         System.out.println(ai.get(0));
         System.out.println(value[0]);
+
+
+        Lock lock = new ReentrantLock();
     }
 }
