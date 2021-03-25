@@ -1,6 +1,10 @@
 package collection;
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.TreeMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Author 杜广楠
@@ -11,6 +15,7 @@ public class HashMapDemo {
     static HashMap map = new HashMap();
 
     public static void main(String[] args) {
+        ConcurrentHashMap
         Thread thread1 = new Thread(new ClassA(), "ClassA ");
         Thread thread2 = new Thread(new ClassB(), "ClassB");
         thread1.start();
