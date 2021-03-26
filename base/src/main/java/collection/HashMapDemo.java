@@ -15,7 +15,6 @@ public class HashMapDemo {
     static HashMap map = new HashMap();
 
     public static void main(String[] args) {
-        ConcurrentHashMap
         Thread thread1 = new Thread(new ClassA(), "ClassA ");
         Thread thread2 = new Thread(new ClassB(), "ClassB");
         thread1.start();

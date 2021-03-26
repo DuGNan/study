@@ -15,7 +15,7 @@ public class ChannelDemo {
 
     public static void main(String[] args) {
         try {
-            RandomAccessFile randomAccessFile = new RandomAccessFile("D:\\work\\nio1.txt", "rw");
+            RandomAccessFile randomAccessFile = new RandomAccessFile("F:\\nio1.txt", "rw");
             FileChannel inChannel = randomAccessFile.getChannel();
 
             //创建缓冲区
