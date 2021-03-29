@@ -19,6 +19,7 @@
         <module>concurrency-demo</module>
         <module>shiro-demo</module>
         <module>nio-study</module>
+        <module>spring-study</module>
     </modules>
 
     <properties>

@@ -15,7 +15,8 @@ public class ChannelDemo {
 
     public static void main(String[] args) {
         try {
-            RandomAccessFile randomAccessFile = new RandomAccessFile("F:\\nio1.txt", "rw");
+            RandomAccessFile randomAccessFile = new RandomAccessFile(System.getProperty("user.dir") +
+                    "\\nio-study\\file\\nio1.txt" , "rw");
             FileChannel inChannel = randomAccessFile.getChannel();
 
             //创建缓冲区
@@ -42,6 +43,7 @@ public class ChannelDemo {
                 // 任何未读的数据都被移到缓冲区的起始处，新写入的数据将放到缓冲区未读数据的后面
                 buf.clear();
                 byteRead = inChannel.read(buf);
+                System.out.println("Read " + byteRead);
             }
             randomAccessFile.close();
         } catch (FileNotFoundException e) {
