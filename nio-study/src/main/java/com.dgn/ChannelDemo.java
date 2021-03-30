@@ -1,10 +1,13 @@
 package com.dgn;
 
+import org.junit.Test;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.nio.file.StandardOpenOption;
 
 /**
  * @Author 杜广楠
@@ -12,6 +15,10 @@ import java.nio.channels.FileChannel;
  * @Date 2021/3/24 20:05
  */
 public class ChannelDemo {
+
+    @Test
+    void ClearTest(){
+    }
 
     public static void main(String[] args) {
         try {
@@ -35,10 +42,10 @@ public class ChannelDemo {
 
                 while (buf.hasRemaining()){
                     // 每次读一字节
-                    System.out.println((char) buf.get());
+                    System.out.print((char) buf.get());
                 }
 
-                //读完了所有的数据，就需要清空缓冲区，让它可以再次被写入
+                //读完了所有的数据，就需要  清空缓冲区，让它可以再次被写入
                 //调用clear()或compact()方法。clear()方法会清空整个缓冲区。compact()方法只会清除已经读过的数据。
                 // 任何未读的数据都被移到缓冲区的起始处，新写入的数据将放到缓冲区未读数据的后面
                 buf.clear();

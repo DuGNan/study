@@ -15,5 +15,7 @@ public class BufferDemo {
         while (buffer.hasRemaining()){
             System.out.println(buffer.get());
         }
+
+        ByteBuffer.allocateDirect(1024);
     }
 }

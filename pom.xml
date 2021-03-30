@@ -20,6 +20,7 @@
         <module>shiro-demo</module>
         <module>nio-study</module>
         <module>spring-study</module>
+        <module>io-study</module>
     </modules>
 
     <properties>

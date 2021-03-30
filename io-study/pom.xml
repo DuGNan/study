@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nio-study</artifactId>
+    <artifactId>io-study</artifactId>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
