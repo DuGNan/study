@@ -7,6 +7,7 @@ import java.lang.reflect.Method;
  * @author dugn
  * @Date 2020/12/11
  * @Description demo来自《Thinking in Java》，一个简单的代理设计模式
+ * 静态代理模式，代理类和被代理类实现同一个接口
  */
 interface Interface {
     void doSomeThing();
