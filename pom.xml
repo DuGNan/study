@@ -11,6 +11,7 @@
 
     <modules>
         <module>arithmetic</module>
+        <module>apollo-study</module>
         <module>base</module>
         <module>my-rpc-server</module>
         <module>my-rpc-client</module>
@@ -21,6 +22,7 @@
         <module>nio-study</module>
         <module>spring-study</module>
         <module>io-study</module>
+        <module>jvm-study</module>
     </modules>
 
     <properties>
